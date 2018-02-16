@@ -37,9 +37,9 @@ class Start extends Component {
         </header>
 
         <TextField
-          hintText="(e.g. SDYKNZMYT6NE5EX6H3YZFGXMQ3R6NFR3YPX5RVM3L3DAK6RSA7KJI6CA)"
+          hintText="(e.g. SDYKNZM...)"
           floatingLabelText="Private Key"
-          style={{width: 800}}
+          style={{width: '800'}}
           errorText={errorText}
           onChange={this.onChange}
         />
