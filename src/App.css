@@ -26,3 +26,23 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.privateKey {
+  padding-top: 18px;
+  width: 90% !important
+}
+
+.menuButton{
+  width: 80%
+}
+
+@media only screen and (min-width: 1024px) {
+  .privateKey {
+    width: 800px   !important
+  }
+
+  .menuButton{
+    width: 25%
+  }
+}
+

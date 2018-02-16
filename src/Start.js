@@ -37,11 +37,12 @@ class Start extends Component {
         </header>
 
         <TextField
-          hintText="(e.g. SDYKNZM...)"
+          hintText="(e.g.:SDYKNZMYT6NE5EX6H3YZFGXMQ3R6NFR3YPX5RVM3L3DAK6RSA7KJI6CA)"
+          className="privateKey"
           floatingLabelText="Private Key"
-          style={{width: '800'}}
           errorText={errorText}
           onChange={this.onChange}
+          hintStyle = {{'word-wrap': 'break-word', width: '100%'}}
         />
         <br />
         <RaisedButton
@@ -49,6 +50,7 @@ class Start extends Component {
           primary={true}
           style={{marginTop: 10}}
           onClick={() => {this.onSubmit(false);}}
+          className="menuButton"
         />
         <br />
         <RaisedButton
@@ -56,10 +58,12 @@ class Start extends Component {
           secondary={true}
           style={{marginTop: 30}}
           onClick={() => {this.onSubmit(true);}}
+          className="menuButton"
         />
         <br />
         <GenerateWalletButton
           initializeWallet={this.props.initializeWallet}
+          className="menuButton"
         />
       </div>
     );

@@ -60,6 +60,7 @@ class GenerateWalletButton extends Component {
         backgroundColor="#2cc15b"
         labelColor="white"
         style={{marginTop: 30}}
+        className="menuButton"
       />
       <Dialog
         title="Generate Wallet"
