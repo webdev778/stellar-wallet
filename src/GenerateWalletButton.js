@@ -68,7 +68,7 @@ class GenerateWalletButton extends Component {
         open={this.state.open}
         modal={false}
         onRequestClose={() => {this.setState({open: false})}}
-        style = {{'word-wrap': 'break-word'}}
+        contentStyle = {{'word-wrap': 'break-word'}}
       >
         <b>Secret Key (SAVE THIS!):</b> {this.state.pair ? this.state.pair.secret() : "Loading"}
         <br />
